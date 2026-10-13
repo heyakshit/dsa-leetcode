@@ -10,11 +10,11 @@ public:
         }
         int left = 0; 
         int right =cleaned.size()-1;
-        while(left<=right){
             if(cleaned.empty()){
                 result = true;
                 return result;
             }
+        while(left<=right){
             if(cleaned[left] != cleaned[right]){
                 result = false;
                 break;
