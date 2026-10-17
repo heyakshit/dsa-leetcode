@@ -22,24 +22,6 @@ public:
                 y++;
             }
         }
-
-        // int left=0;
-        // int ptr =1;
-        // int right= nums.size()-1;
-
-        // while(ptr<=right){
-        //     if((left%2==0 && nums[left] >=0) || (left%2 != 0 && nums[left]<0)){
-        //         left++;
-        //         ptr++;
-
-        //     }else{
-        //         for(int i=right;i>left; i--){
-        //             swap(nums[i],nums[i-1]);
-        //         }
-        //         left++;
-        //         right++;
-        //     }
-        // }
         return nums;
     }
 };
